@@ -37,6 +37,42 @@ export default function Home() {
             layout='fill'
           />
 
+          <div className={`status-bar ${Callin} ${AnswerCall}`}>
+            <div className="clock">09:41</div>
+            <div className="info-bars">
+              <picture>
+                <img 
+                  className='connection'
+                  src="/connection.svg" 
+                  alt='status bar info' 
+                  priority  
+                  width= {16}
+                  height={16}
+                />
+              </picture>
+              <picture>
+                <img 
+                  className='wifi'
+                  src="/wifi.svg" 
+                  alt='status bar info' 
+                  priority  
+                  width= {21}
+                  height={21}
+                />
+              </picture>
+              <picture>
+                <img 
+                  className='battery'
+                  src="/battery.svg" 
+                  alt='status bar info' 
+                  priority  
+                  width= {26}
+                  height={26}
+                />
+              </picture>
+            </div>
+          </div>
+
           <div className="notch-wrapper" onClick={pillClick}>
             <picture>
               <img 
