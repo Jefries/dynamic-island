@@ -1,5 +1,7 @@
 ## Experience Dynamic Island App
 
+DEMO app: https://dynamic-island-demo.netlify.app/
+
 <img width="480" alt="ui apple dynamic island" src="https://github.com/Jefries/dynamic-island/blob/main/public/screenshot.png">
 
 This is a [Next.js](https://nextjs.org/) project 
